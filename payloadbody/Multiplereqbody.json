@@ -1,0 +1,20 @@
+[
+  {
+    "name": "John Smith",
+    "email": "johnsmith1@gmail.com",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "name": "David Miller",
+    "email": "davidmiller1@gmail.com",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "name": "Emma Watson",
+    "email": "emmawatson1@gmail.com",
+    "gender": "female",
+    "status": "active"
+  }
+]

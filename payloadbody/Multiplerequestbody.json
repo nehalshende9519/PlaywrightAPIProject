@@ -1,0 +1,53 @@
+[
+  {
+    "caseName": "Valid request body",
+    "payload": {
+      "address": "Delhi",
+      "age": 29,
+      "dateOfBirth": "03-01-2020",
+      "emailId": "johnsmith@gmail.com",
+      "firstName": "John",
+      "gender": "Male",
+      "lastName": "Smith",
+      "password": "pass12345",
+      "phoneNo": 9988776655,
+      "weight": 62,
+      "zipcode": 500006
+    },
+    "expectedStatusCode": 200
+  },
+  {
+    "caseName": "Invalid DOB format",
+    "payload": {
+      "address": "Delhi",
+      "age": 29,
+      "dateOfBirth": "30-01-1990",
+      "emailId": "johnsmith@gmail.com",
+      "firstName": "John",
+      "gender": "Male",
+      "lastName": "Smith",
+      "password": "pass12345",
+      "phoneNo": 9988776655,
+      "weight": 62,
+      "zipcode": 500006
+    },
+    "expectedStatusCode": 400
+  },
+  {
+    "caseName": "Empty email id field",
+    "payload": {
+      "address": "Delhi",
+      "age": 29,
+      "dateOfBirth": "03-01-2020",
+      "emailId": "",
+      "firstName": "John",
+      "gender": "Male",
+      "lastName": "Smith",
+      "password": "pass12345",
+      "phoneNo": 9988776655,
+      "weight": 62,
+      "zipcode": 500006
+    },
+    "expectedStatusCode": 400
+  }
+]

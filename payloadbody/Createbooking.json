@@ -1,0 +1,11 @@
+{
+  "firstname": "Nehal",
+  "lastname": "Shende",
+  "totalprice": 2000,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-09-28",
+    "checkout": "2026-10-01"
+  },
+  "additionalneeds": "Breakfast"
+}

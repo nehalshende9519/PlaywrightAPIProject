@@ -1,0 +1,213 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "gorest-api-request-body-data-driven-approach;create-a-user-with-valid-request-body",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Create a user with valid request body",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 14198999
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I set authorization with bearer token value",
+            "match": {
+              "location": "tests\\Stepdefinitions\\Userreqbodyvalid_invalid.js:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 266824300
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "i send post request body with valid user details \"john\" \"john@gmail.com\" \"male\" \"active\"",
+            "match": {
+              "location": "tests\\Stepdefinitions\\Userreqbodyvalid_invalid.js:17"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2332800
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the response status code should be for valid \"201\"",
+            "match": {
+              "location": "tests\\Stepdefinitions\\Userreqbodyvalid_invalid.js:94"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "gorest-api-request-body-data-driven-approach;create-a-user-with-valid-request-body",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Create a user with valid request body",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1355399
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I set authorization with bearer token value",
+            "match": {
+              "location": "tests\\Stepdefinitions\\Userreqbodyvalid_invalid.js:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 143234400
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "i send post request body with valid user details \"lisa\" \"lisa@gmail.com\" \"female\" \"active\"",
+            "match": {
+              "location": "tests\\Stepdefinitions\\Userreqbodyvalid_invalid.js:17"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 658899
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the response status code should be for valid \"201\"",
+            "match": {
+              "location": "tests\\Stepdefinitions\\Userreqbodyvalid_invalid.js:94"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "gorest-api-request-body-data-driven-approach;create-a-user-with-invalid-request-body",
+        "keyword": "Scenario Outline",
+        "line": 29,
+        "name": "Create a user with invalid request body",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 954699
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I set authorization with bearer token value",
+            "match": {
+              "location": "tests\\Stepdefinitions\\Userreqbodyvalid_invalid.js:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 131055899
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "i send post request body with invalid user details \"john\" \"\" \"male\" \"active\"",
+            "match": {
+              "location": "tests\\Stepdefinitions\\Userreqbodyvalid_invalid.js:57"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 647599
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the response status code should be for invalid \"422\"",
+            "match": {
+              "location": "tests\\Stepdefinitions\\Userreqbodyvalid_invalid.js:107"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "gorest-api-request-body-data-driven-approach;create-a-user-with-invalid-request-body",
+        "keyword": "Scenario Outline",
+        "line": 30,
+        "name": "Create a user with invalid request body",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1090099
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I set authorization with bearer token value",
+            "match": {
+              "location": "tests\\Stepdefinitions\\Userreqbodyvalid_invalid.js:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 444580899
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "i send post request body with invalid user details \"lisa\" \"invalid-email\" \"female\" \"active\"",
+            "match": {
+              "location": "tests\\Stepdefinitions\\Userreqbodyvalid_invalid.js:57"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 601199
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the response status code should be for invalid \"422\"",
+            "match": {
+              "location": "tests\\Stepdefinitions\\Userreqbodyvalid_invalid.js:107"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "gorest-api-request-body-data-driven-approach",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "GoRest API Request Body Data Driven Approach",
+    "tags": [],
+    "uri": "tests\\Feature\\Userreqbodyvalidandinvalid.feature"
+  }
+]
